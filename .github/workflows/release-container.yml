@@ -7,7 +7,7 @@
   concurrency: keycloak-container-operator-release
 
   jobs:
-    publish:
+    publish-operator:
       if: github.repository == 'stianst/keycloak-operator'
       runs-on: ubuntu-latest
       steps:
